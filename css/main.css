@@ -1,0 +1,125 @@
+@import url(./fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wraper {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #151515;
+}
+
+.header-menu {
+    background-color: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    height: 65px;
+    margin-top: 6px;
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuAndLogo {
+    margin-left: 245px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+span {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 100px;
+    height: 53px;
+}
+
+.SearchAndShop {
+    margin-right: 290px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.AirPodsPro {
+    color: #FFF;
+    font-family: 'Prosto One';
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    margin-top: 309px;
+    margin-bottom: 316px;
+    margin-left: 401px;
+    margin-right: 536px;
+}
+
+.header-hero {
+    fill: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #151515 100%), url(<path-to-image>) lightgray 0px -0.501px / 100% 128.755% no-repeat;
+    background-image: ;
+}
+
+.text1 {
+    width: 538px;
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 248px;
+    margin-top: 57px;
+}
+
+.airpods1 {
+    width: 552px;
+    height: 335px;
+    flex-shrink: 0;
+    margin-right: 264px;
+    margin-left: 784px;
+}
+
+.airpods2 {
+    width: 562px;
+    height: 408px;
+    flex-shrink: 0;
+    margin-left: 190px;
+    margin-top: 217px
+}
+
+.text2 {
+    width: 540px;
+    height: 107px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
